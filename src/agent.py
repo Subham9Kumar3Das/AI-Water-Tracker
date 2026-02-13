@@ -1,14 +1,13 @@
 import os # for accessing environment variables
-from langchain_openai import ChatOpenAI # for using the OpenAI API
+ # for using the OpenAI API
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage # Straucturing the human message
 from dotenv import load_dotenv # for loading the environment variables
 
 load_dotenv()
-OpenAI_API_KEY = os.getenv("API_KEY")
+
 Google_API_KEY = os.getenv("GEMINI_API_KEY")
 
-llm = ChatOpenAI(model="gpt-4o", api_key=OpenAI_API_KEY , temperature=0.5)
 google_llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", api_key=Google_API_KEY ,temperature=0.5)
 class WaterIntakeAgent:
 
