@@ -1,8 +1,12 @@
-fastapi
-sqlalchemy
-alembic
-uvicorn
-langchain
 streamlit
 pandas
 python-dotenv
+
+langchain
+langchain-core
+langchain-openai
+langchain-google-genai
+
+openai
+google-generativeai
+tiktoken
