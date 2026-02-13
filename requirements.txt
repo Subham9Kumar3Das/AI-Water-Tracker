@@ -1,0 +1,8 @@
+fastapi
+sqlalchemy
+alembic
+uvicorn
+langchain
+streamlit
+pandas
+python-dotenv
