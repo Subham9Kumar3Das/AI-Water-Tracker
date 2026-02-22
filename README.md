@@ -54,15 +54,13 @@ This project demonstrates the integration of:
 ---
 
 ## 🏗️ Project Architecture
+
 AI-Water-Tracker/
-│
-├── .devcontainer/ # Development container config
-│
+├── .devcontainer/        # Dev container configuration
 ├── src/
-│ ├── agent.py # AI Agent (Gemini + LangChain)
-│ ├── database.py # SQLite operations
-│
-├── dashboard.py # Streamlit Frontend + Controller
-├── requirements.txt # Dependencies
-├── README.md
+│   ├── agent.py          # AI logic (Gemini + LangChain)
+│   └── database.py       # SQLite database functions
+├── dashboard.py          # Streamlit app (UI + controller)
+├── requirements.txt      # Project dependencies
+├── README.md             # Documentation
 └── .gitignore
